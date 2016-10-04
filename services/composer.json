@@ -1,0 +1,30 @@
+{
+  "name": "terry-lee-allen-jr/service-workers",
+  "description": "A PHP based service library leveraging Redis and socket.io",
+  "version": "1.0.0",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Lee Allen",
+      "email": "terry.allen@nbcuni.com",
+      "homepage": "http://lee-allen.com",
+      "role": "developer"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "http://github.com/TerryLeeAllenJr/php-service-workers"
+    }
+  ],
+  "require": {
+    "predis/predis": "1.0.2",
+    "phpunit/phpunit": "4.7.7",
+    "wisembly/elephant.io": "~3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Service\\": "lib"
+    }
+  }
+}

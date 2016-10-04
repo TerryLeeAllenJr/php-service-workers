@@ -1,0 +1,9 @@
+{
+  "name": "content-delivery-server",
+  "version": "0.0.1",
+  "description": "Web services responsible for the News Channel Delivery platform",
+  "dependencies": {
+    "express": "^4.10.2",
+    "socket.io": "^1.3.7"
+  }
+}
